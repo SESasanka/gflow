@@ -24,12 +24,12 @@ if(isset($_GET["e"])){
         $mail->IsSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'sasankaakash89@gmail.com';
-        $mail->Password = 'yyylwsnmjxvesasj';
+        $mail->Username = 'sasankaakash22@gmail.com';
+        $mail->Password = 'mvvvggcfknzaqxhb';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('sasankaakash89@gmail.com', 'Reset Password');
-        $mail->addReplyTo('sasankaakash89@gmail.com', 'Reset Password');
+        $mail->setFrom('sasankaakash22@gmail.com', 'Reset Password');
+        $mail->addReplyTo('sasankaakash22@gmail.com', 'Reset Password');
         $mail->addAddress($email);
         $mail->isHTML(true);
         $mail->Subject = 'Gflow Computers Forgot password Verification Code';
