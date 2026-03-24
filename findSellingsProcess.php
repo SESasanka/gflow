@@ -27,7 +27,7 @@ if (isset($_GET["f"]) && isset($_GET["t"])) {
                     <tbody>
                         <tr>
 
-                            <td class="form-label fs-5  mt-1 mb-1"><?php echo $invoice_data["invoice_id"]; ?></td>
+                            <td class="form-label fs-5 text-light mt-1 mb-1"><?php echo $invoice_data["invoice_id"]; ?></td>
 
 
                             <?php
@@ -38,7 +38,7 @@ if (isset($_GET["f"]) && isset($_GET["t"])) {
                             ?>
 
 
-                            <td class="form-label fs-6  mt-1 mb-1"><?php echo $product_data["title"]; ?></td>
+                            <td class="form-label fs-6 text-light mt-1 mb-1"><?php echo $product_data["title"]; ?></td>
 
 
                             <?php
@@ -47,13 +47,13 @@ if (isset($_GET["f"]) && isset($_GET["t"])) {
                             ?>
 
 
-                            <td class="form-label fs-6   mt-1 mb-1"><?php echo $user_data["fname"] . " " . $user_data["lname"]; ?></td>
+                            <td class="form-label fs-6 text-light  mt-1 mb-1"><?php echo $user_data["fname"] . " " . $user_data["lname"]; ?></td>
 
 
-                            <td class="form-label fs-6   mt-1 mb-1">Rs. <?php echo $invoice_data["total"]; ?> .00</td>
+                            <td class="form-label fs-6  text-light mt-1 mb-1">LKR <?php echo $invoice_data["total"]; ?> .00</td>
 
 
-                            <td class="form-label fs-6 mt-1 mb-1"><?php echo $invoice_data["qty"]; ?></td>
+                            <td class="form-label text-light fs-6 mt-1 mb-1"><?php echo $invoice_data["qty"]; ?></td>
 
                             <td class=" d-grid">
                                 <?php

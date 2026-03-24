@@ -150,12 +150,12 @@
                                 <div class="col-12 col-lg-2">
                                     <div class="row">
                                         <div class="col-6 d-lg-grid">
-                                            <button class="btn btn-secondary rounded  mt-5 fs-5" onclick="addFeedback(<?php echo $invoice_data['product_id']; ?>);">
+                                            <button class="btn btn-secondary rounded mb-3  mt-5 fs-5" onclick="addFeedback(<?php echo $invoice_data['product_id']; ?>);">
                                                  Feedback
                                             </button>
                                       
                                        
-                                            <button class="btn btn-danger rounded mt-5 fs-5" onclick="deleteFeedback(<?php echo $invoice_data['product_id']; ?>);">
+                                            <button class="btn btn-danger rounded  fs-5" onclick="deleteFeedback(<?php echo $invoice_data['product_id']; ?>);">
                                                 <i class="bi bi-trash3-fill fs-5"></i> Delete
                                             </button>
                                         </div>

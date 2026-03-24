@@ -125,7 +125,7 @@ include "connection.php";
                                     <td class="form-label fs-5 fw-bold text-white mt-1 mb-1"><?php echo $user_data["fname"] . " " . $user_data["lname"]; ?></td>
 
 
-                                    <td class="form-label fs-5 fw-bold text-light mt-1 mb-1">Rs. <?php echo $selected_data["total"]; ?> .00</td>
+                                    <td class="form-label fs-5 fw-bold text-light mt-1 mb-1">LKR <?php echo $selected_data["total"]; ?> .00</td>
 
 
                                     <td class="form-label fs-5 fw-bold text-white mt-1 mb-1"><?php echo $selected_data["qty"]; ?></td>
@@ -167,6 +167,7 @@ include "connection.php";
 
                             }
                             ?>
+                        </div>
                     </tbody>
                 </table>
             </div>

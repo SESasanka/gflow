@@ -59,7 +59,7 @@ include "connection.php";
                         
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" onclick="verify();">Verify</button>
+                            <button type="button" class="btn btn-warning" onclick="verify();">Verify</button>
                         </div>
                     </div>
                 </div>

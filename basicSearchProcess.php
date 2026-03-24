@@ -8,13 +8,17 @@ $select = $_POST["s"];
 
 $query = "SELECT * FROM `product` ";
 
-if (!empty($txt) && $select == 0) {
-    $query .= "WHERE `title` LIKE '%" . $txt . "%'";
-} else if (empty($txt) && $select != 0) {
-    $query .= "WHERE `category_cat_id`='" . $select . "'";
-} else if (!empty($txt) && $select != 0) {
-    $query .= "WHERE `title` LIKE '%" . $txt . "%' AND `category_cat_id`='" . $select . "'";
-}
+if (empty($txt)) {
+    echo ("Please Enter Your Search.");
+} else {
+
+    if (!empty($txt) && $select == 0) {
+        $query .= "WHERE `title` LIKE '%" . $txt . "%'";
+    } else if (empty($txt) && $select != 0) {
+        $query .= "WHERE `category_cat_id`='" . $select . "'";
+    } else if (!empty($txt) && $select != 0) {
+        $query .= "WHERE `title` LIKE '%" . $txt . "%' AND `category_cat_id`='" . $select . "'";
+    }
 
 
 
@@ -182,19 +186,13 @@ if (!empty($txt) && $select == 0) {
 
         <?php
 
-
-
         ?>
 
 
     </div>
-    </div>
+
 
 <?php
-
-
+}
 
 ?>
-
-</div>
-</div>

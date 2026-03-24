@@ -28,7 +28,7 @@ include "connection.php";
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px); border-radius: 10px;">
             <div class="col-12  text-center">
-                <label class="form-label text-warning fw-bold fs-1">Selling History</label>
+                <label class="form-label text-warning fw-bold fs-1">Order History</label>
             </div>
 
             <div class="col-12 text-light mt-3 mb-3">

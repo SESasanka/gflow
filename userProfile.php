@@ -64,7 +64,7 @@
 
                                         if (empty($image_details["path"])) {
                                         ?>
-                                            <img src="img/new_user.svg" class="rounded mt-5" style="width: 300px;" id="img" />
+                                            <img src="img/user1.svg" class="rounded mt-5" style="width: 300px;" id="img" />
                                         <?php
                                         } else {
                                         ?>

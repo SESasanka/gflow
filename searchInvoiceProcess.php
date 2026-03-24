@@ -41,7 +41,7 @@ if (isset($_GET["id"])) {
                     <td class="form-label fs-6 text-light  mt-1 mb-1"><?php echo $user_data["fname"] . " " . $user_data["lname"]; ?></td>
 
 
-                    <td class="form-label fs-6  text-light mt-1 mb-1">Rs. <?php echo $invoice_data["total"]; ?> .00</td>
+                    <td class="form-label fs-6  text-light mt-1 mb-1">LKR <?php echo $invoice_data["total"]; ?> .00</td>
 
 
                     <td class="form-label text-light fs-6 mt-1 mb-1"><?php echo $invoice_data["qty"]; ?></td>

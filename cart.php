@@ -173,7 +173,7 @@
                                                         <span class="fw-bold text-light fs-5">Rs.<?php echo $ship; ?>.00</span>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-2">
                                                     <div class="card-body d-grid">
                                                         <!-- <a class="btn btn-warning mb-2" >Buy Now</a> -->
                                                         <a class="btn btn-danger mb-2" onclick="deleteFromCart(<?php echo $cart_data['cart_id']; ?>);"><i class="bi bi-trash3"></i></a>
@@ -187,7 +187,7 @@
                                                         <div class="col-6 col-md-6">
                                                             <span class="fw-bold fs-5 text-light">Requested Total <i class="bi bi-info-circle"></i></span>
                                                         </div>
-                                                        <div class="col-6 col-md-6 text-end">
+                                                        <div class="col-6 col-md-6 ">
                                                             <span class="fw-bold fs-5 text-light">Rs.<?php echo ($product_data["price"] * $cart_data["qty"]) + $ship; ?>.00</span>
                                                         </div>
                                                     </div>
