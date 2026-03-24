@@ -1,0 +1,50 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependency folders
+vendor/
+node_modules/
+
+# Build / cache
+dist/
+build/
+.cache/
+coverage/
+
+# PHP runtime temp/session files
+*.tmp
+*.temp
+
+# Uploads / generated media (keep folders, ignore contents)
+img/profile_images/*
+img/profile_images/.gitkeep
+images/products/*
+images/products/.gitkeep
+
+# Archives / database dumps
+*.sql
+*.zip
+*.tar
+*.gz
+
+# XAMPP / local backups
+*.bak
+*.old
